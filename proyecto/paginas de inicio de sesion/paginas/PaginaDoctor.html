@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style type="text/css">
+        h1 {
+          color: #02090e;
+          text-align: center;
+          background-color: lightgrey;
+        }
+
+
+        form {
+          width: 350px;
+          padding: 16px;
+          border-radius: 10px;
+          margin: auto;
+          background-color: #ccc;
+          
+        }
+  
+        form input {
+          padding: 3px 10px;
+          border: 1px solid #f6f6f6;
+          border-radius: 3px;
+          margin: 8px 10px;
+          display: inline-block;
+        }
+  
+        button {
+          text-align: right;
+          font-weight: bold;
+        }
+
+        h2{
+          color: #02090e;
+          text-align: center;
+          background-color: lightgrey;
+        }
+      </style>
+
+
+    <title>Document</title>
+</head>
+<body>
+    <h1>Bienvenido Señor(a) Doctor (a) (mostrar nombre del doctor y datos de la cedula)</h1>
+             
+    <form action="" method="get"  style="text-align:center ;">
+
+        <p align="center">Seleccione la fecha para validar las citas</p>
+
+        <br>
+        <label for="fecha">Seleccione la fecha:</label>
+      
+        <input type="date" min="2022-01-01" max="2023-12-31" id="fecha"  name="fecha">
+        <br>
+        <a href="Informacion Paginas/Doctorpagina.html">
+            <button type="button" value="consultar">consultar</button>
+
+        <br>
+    </form>
+
+
+    <div align="center"> <div id="preview" style= "BORDER-RIGHT: #000 1px solid; PADDING-RIGHT: 0px; BORDER-TOP: #000 1px solid; 
+                          PADDING-LEFT: 2px; PADDING-BOTTOM: 2px; WORD-SPACING: 1px; OVERFLOW: scroll; BORDER-LEFT: #000 1px solid; 
+                          WIDTH: 300px; PADDING-TOP: 1px; BORDER-BOTTOM: #000 2px solid; HEIGHT: 200px; TEXT-ALIGN: left"> 
+    <p>  Aquí indicaria la informacion de los pacientes el dia consultado</p> </div></div>
+
+    <br>
+    <a href="paginas/PaginaUsuario.html">
+        <button type="button" value="enviar">enviar</button>
+    </a>
+
+    <a href="Informacion Paginas/Doctorpagina.html">
+      <button type="button" value="consultar" style="text-align:center ;">consultar </button>
+
+    <br>
+
+
+    </form>
+
+</body>
+</html>
